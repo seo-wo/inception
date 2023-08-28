@@ -1,0 +1,24 @@
+.
+├── Makefile
+├── srcs
+│   ├── docker-compose.yml
+│   └── requirements
+│       ├── mariadb
+│       │   ├── Dockerfile
+│       │   ├── conf
+│       │   │   └── my.cnf
+│       │   └── tools
+│       │       └── init.sh
+│       ├── nginx
+│       │   ├── Dockerfile
+│       │   └── conf
+│       │       └── nginx.conf
+│       └── wordpress
+│           ├── Dockerfile
+│           ├── conf
+│           │   └── wordpress.conf
+│           └── tools
+│               └── wordpress.sh
+└── tree.txt
+
+11 directories, 11 files
